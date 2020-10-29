@@ -4,6 +4,7 @@ The materials in this repository implements the experiments for the article "Enc
 * __BPIC2015__: BPIC2015_1_f2, BPIC2015_2_f2, BPIC2015_3_f2, BPIC2015_4_f2, BPIC2015_5_f2
 * __BPIC2017__: BPIC2017_Accepted, BPIC2017_Canceled, BPIC2017_Refused
 * __traffic fines__: traffic_fines_1
+
 The details of the preprocessing of the datasets are available in [Teinemaa et al. (2019)](https://dl.acm.org/doi/abs/10.1145/3301300).
 
 The materials in this repository provides implementation of extracting resource-aware features, index encoding of features, and training & testing of models to predict the outcome of an ongoing case.
