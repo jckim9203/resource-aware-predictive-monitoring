@@ -6,10 +6,10 @@ The materials in this repository provides implementation of extracting resource-
 ## 1. extract_resource_features_dtype_conversion.py
 -This code extracts 38 resource-aware features defined by four dimensions related to resource experience: Recency, Context, Target, Aspect.
 -The details on four dimensions is presented as below:
-* Recency: Long-term, Short-term
-* Context: General, Current case, Current task, Current handoff
-* Target: Work item, Case, Task, Handoff
-* Aspect: Frequency, Performance, Specialization, Generalization, Busyness
+* __Recency__: Long-term, Short-term
+* __Context__: General, Current case, Current task, Current handoff
+* __Target__: Work item, Case, Task, Handoff
+* __Aspect__: Frequency, Performance, Specialization, Generalization, Busyness
 
 ## 2. <dataset_name>_prefixing_code.r
 -This code adds a new variable indicating the value of the prefix that corresponding event belongs to.
