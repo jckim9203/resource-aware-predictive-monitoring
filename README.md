@@ -13,6 +13,10 @@ The materials in this repository provides implementation of extracting resource-
 
 ## 2. <dataset_name>_prefixing_code.r
 -This code adds a new variable indicating the value of the prefix that corresponding event belongs to.
+* __BPIC2011__: BPIC2011_f1, BPIC2011_f2, BPIC2011_f3, BPIC2011_f4
+* __BPIC2015__: BPIC2015_1_f2, BPIC2015_2_f2, BPIC2015_3_f2, BPIC2015_4_f2, BPIC2015_5_f2
+* __BPIC2017__: BPIC2017_Accepted, BPIC2017_Canceled, BPIC2017_Refused
+* __traffic fines__: traffic_fines_1
 
 ## 3. train_evaluate_final_with_resource_index_encoding.py
 -This code uses "index encoding" to encode the features.
