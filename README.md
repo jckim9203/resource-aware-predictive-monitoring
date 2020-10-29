@@ -20,4 +20,5 @@ The details of the preprocessing of the datasets are available in [Teinemaa et a
 
 ## 3. train_evaluate_final_with_resource_index_encoding.py
 -This code uses "index encoding" to encode the features.
+
 -After index encoding, this code trains and evaluates the models using two decision tree-based classifiers, Random Forest and XGBoost.
