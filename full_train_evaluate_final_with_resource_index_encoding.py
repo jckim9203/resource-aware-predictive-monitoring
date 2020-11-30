@@ -87,18 +87,6 @@ if dataset_name == "BPIC11_f1_exp_prefix":
          prefix_index_encoding_Section, prefix_index_encoding_Specialism_code_1,
          prefix_index_encoding_Specialism_code_2, prefix_index_encoding_group, prefix_index_encoding_num_of_exec],
         axis=1)
-    '''
-    data_dummy_prefix_no_resource = pd.concat(
-        [prefix_index_encoding_case_id, prefix_index_encoding_activity, prefix_index_encoding_producer,
-         prefix_index_encoding_timesincelastevent, prefix_index_encoding_timesincecasestart,
-         prefix_index_encoding_timesincemidnight, prefix_index_encoding_event_nr, prefix_index_encoding_month,
-         prefix_index_encoding_weekday, prefix_index_encoding_hour, prefix_index_encoding_open_cases,
-         prefix_index_encoding_label, prefix_index_encoding_Age, prefix_index_encoding_Treatment_code,
-         prefix_index_encoding_Section, prefix_index_encoding_Specialism_code_1,
-         prefix_index_encoding_Specialism_code_2, prefix_index_encoding_group, prefix_index_encoding_num_of_exec],
-        axis=1)
-    '''
-
 
 if dataset_name == "BPIC11_f2_exp_prefix":
     data_dummy_prefix_yes_resource = prefix_index_encoding
@@ -144,18 +132,6 @@ if dataset_name == "BPIC11_f2_exp_prefix":
          prefix_index_encoding_Section, prefix_index_encoding_Specialism_code_1,
          prefix_index_encoding_Specialism_code_2, prefix_index_encoding_group, prefix_index_encoding_num_of_exec],
         axis=1)
-    '''
-    data_dummy_prefix_no_resource = pd.concat(
-        [prefix_index_encoding_case_id, prefix_index_encoding_activity, prefix_index_encoding_producer,
-         prefix_index_encoding_timesincelastevent, prefix_index_encoding_timesincecasestart,
-         prefix_index_encoding_timesincemidnight, prefix_index_encoding_event_nr, prefix_index_encoding_month,
-         prefix_index_encoding_weekday, prefix_index_encoding_hour, prefix_index_encoding_open_cases,
-         prefix_index_encoding_label, prefix_index_encoding_Age, prefix_index_encoding_Treatment_code,
-         prefix_index_encoding_Section, prefix_index_encoding_Specialism_code_1,
-         prefix_index_encoding_Specialism_code_2, prefix_index_encoding_group, prefix_index_encoding_num_of_exec],
-        axis=1)
-    '''
-
 
 if dataset_name == "BPIC11_f3_exp_prefix":
     data_dummy_prefix_yes_resource = prefix_index_encoding
@@ -201,17 +177,6 @@ if dataset_name == "BPIC11_f3_exp_prefix":
          prefix_index_encoding_Section, prefix_index_encoding_Specialism_code_1,
          prefix_index_encoding_Specialism_code_2, prefix_index_encoding_group, prefix_index_encoding_num_of_exec],
         axis=1)
-    '''
-    data_dummy_prefix_no_resource = pd.concat(
-        [prefix_index_encoding_case_id, prefix_index_encoding_activity, prefix_index_encoding_producer,
-         prefix_index_encoding_timesincelastevent, prefix_index_encoding_timesincecasestart,
-         prefix_index_encoding_timesincemidnight, prefix_index_encoding_event_nr, prefix_index_encoding_month,
-         prefix_index_encoding_weekday, prefix_index_encoding_hour, prefix_index_encoding_open_cases,
-         prefix_index_encoding_label, prefix_index_encoding_Age, prefix_index_encoding_Treatment_code,
-         prefix_index_encoding_Section, prefix_index_encoding_Specialism_code_1,
-         prefix_index_encoding_Specialism_code_2, prefix_index_encoding_group, prefix_index_encoding_num_of_exec],
-        axis=1)
-    '''
 
 if dataset_name == "BPIC11_f4_exp_prefix":
     data_dummy_prefix_yes_resource = prefix_index_encoding
@@ -257,17 +222,6 @@ if dataset_name == "BPIC11_f4_exp_prefix":
          prefix_index_encoding_Section, prefix_index_encoding_Specialism_code_1,
          prefix_index_encoding_Specialism_code_2, prefix_index_encoding_group, prefix_index_encoding_num_of_exec],
         axis=1)
-    '''
-    data_dummy_prefix_no_resource = pd.concat(
-        [prefix_index_encoding_case_id, prefix_index_encoding_activity, prefix_index_encoding_producer,
-         prefix_index_encoding_timesincelastevent, prefix_index_encoding_timesincecasestart,
-         prefix_index_encoding_timesincemidnight, prefix_index_encoding_event_nr, prefix_index_encoding_month,
-         prefix_index_encoding_weekday, prefix_index_encoding_hour, prefix_index_encoding_open_cases,
-         prefix_index_encoding_label, prefix_index_encoding_Age, prefix_index_encoding_Treatment_code,
-         prefix_index_encoding_Section, prefix_index_encoding_Specialism_code_1,
-         prefix_index_encoding_Specialism_code_2, prefix_index_encoding_group, prefix_index_encoding_num_of_exec],
-        axis=1)
-    '''
 
 if dataset_name == "BPIC15_1_f2_exp_prefix":
     data_dummy_prefix_yes_resource = prefix_index_encoding
@@ -321,18 +275,6 @@ if dataset_name == "BPIC15_1_f2_exp_prefix":
          prefix_index_encoding_Bouw, prefix_index_encoding_Brandveilig, prefix_index_encoding_Handelen,
          prefix_index_encoding_Kap, prefix_index_encoding_Milieu, prefix_index_encoding_Monument,
          prefix_index_encoding_Reclame, prefix_index_encoding_Sloop, prefix_index_encoding_resource], axis=1)
-    '''
-    data_dummy_prefix_no_resource = pd.concat(
-        [prefix_index_encoding_case_id, prefix_index_encoding_activity, prefix_index_encoding_monitoringResource,
-         prefix_index_encoding_question, prefix_index_encoding_responsible_actor,
-         prefix_index_encoding_timesincelastevent, prefix_index_encoding_timesincecasestart,
-         prefix_index_encoding_timesincemidnight, prefix_index_encoding_event_nr, prefix_index_encoding_month,
-         prefix_index_encoding_weekday, prefix_index_encoding_hour, prefix_index_encoding_open_cases,
-         prefix_index_encoding_label, prefix_index_encoding_SUMleges, prefix_index_encoding_Aanleg,
-         prefix_index_encoding_Bouw, prefix_index_encoding_Brandveilig, prefix_index_encoding_Handelen,
-         prefix_index_encoding_Kap, prefix_index_encoding_Milieu, prefix_index_encoding_Monument,
-         prefix_index_encoding_Reclame, prefix_index_encoding_Sloop, prefix_index_encoding_resource], axis=1)
-    '''
 
 if dataset_name == "BPIC15_2_f2_exp_prefix":
     data_dummy_prefix_yes_resource = prefix_index_encoding
@@ -386,18 +328,6 @@ if dataset_name == "BPIC15_2_f2_exp_prefix":
          prefix_index_encoding_Bouw, prefix_index_encoding_Brandveilig, prefix_index_encoding_Handelen,
          prefix_index_encoding_Kap, prefix_index_encoding_Milieu, prefix_index_encoding_Monument,
          prefix_index_encoding_Reclame, prefix_index_encoding_Sloop, prefix_index_encoding_resource], axis=1)
-    '''
-    data_dummy_prefix_no_resource = pd.concat(
-        [prefix_index_encoding_case_id, prefix_index_encoding_activity, prefix_index_encoding_monitoringResource,
-         prefix_index_encoding_question, prefix_index_encoding_responsible_actor,
-         prefix_index_encoding_timesincelastevent, prefix_index_encoding_timesincecasestart,
-         prefix_index_encoding_timesincemidnight, prefix_index_encoding_event_nr, prefix_index_encoding_month,
-         prefix_index_encoding_weekday, prefix_index_encoding_hour, prefix_index_encoding_open_cases,
-         prefix_index_encoding_label, prefix_index_encoding_SUMleges, prefix_index_encoding_Aanleg,
-         prefix_index_encoding_Bouw, prefix_index_encoding_Brandveilig, prefix_index_encoding_Handelen,
-         prefix_index_encoding_Kap, prefix_index_encoding_Milieu, prefix_index_encoding_Monument,
-         prefix_index_encoding_Reclame, prefix_index_encoding_Sloop, prefix_index_encoding_resource], axis=1)
-    '''
 
 if dataset_name == "BPIC15_3_f2_exp_prefix":
     data_dummy_prefix_yes_resource = prefix_index_encoding
@@ -453,19 +383,6 @@ if dataset_name == "BPIC15_3_f2_exp_prefix":
          prefix_index_encoding_Bouw, prefix_index_encoding_Brandveilig, prefix_index_encoding_Flora, prefix_index_encoding_Handelen,
          prefix_index_encoding_Kap, prefix_index_encoding_Milieu, prefix_index_encoding_Monument,
          prefix_index_encoding_Reclame, prefix_index_encoding_Sloop, prefix_index_encoding_resource], axis=1)
-    '''
-    data_dummy_prefix_no_resource = pd.concat(
-        [prefix_index_encoding_case_id, prefix_index_encoding_activity, prefix_index_encoding_monitoringResource,
-         prefix_index_encoding_question, prefix_index_encoding_responsible_actor,
-         prefix_index_encoding_timesincelastevent, prefix_index_encoding_timesincecasestart,
-         prefix_index_encoding_timesincemidnight, prefix_index_encoding_event_nr, prefix_index_encoding_month,
-         prefix_index_encoding_weekday, prefix_index_encoding_hour, prefix_index_encoding_open_cases,
-         prefix_index_encoding_label, prefix_index_encoding_SUMleges, prefix_index_encoding_Aanleg,
-         prefix_index_encoding_Bouw, prefix_index_encoding_Brandveilig, prefix_index_encoding_Flora, prefix_index_encoding_Handelen,
-         prefix_index_encoding_Kap, prefix_index_encoding_Milieu, prefix_index_encoding_Monument,
-         prefix_index_encoding_Reclame, prefix_index_encoding_Sloop, prefix_index_encoding_resource], axis=1)
-    '''
-
 
 if dataset_name == "BPIC15_4_f2_exp_prefix":
     data_dummy_prefix_yes_resource = prefix_index_encoding
@@ -519,18 +436,6 @@ if dataset_name == "BPIC15_4_f2_exp_prefix":
          prefix_index_encoding_Bouw, prefix_index_encoding_Brandveilig, prefix_index_encoding_Handelen,
          prefix_index_encoding_Kap, prefix_index_encoding_Milieu, prefix_index_encoding_Monument,
          prefix_index_encoding_Reclame, prefix_index_encoding_Sloop, prefix_index_encoding_resource], axis=1)
-    '''
-    data_dummy_prefix_no_resource = pd.concat(
-        [prefix_index_encoding_case_id, prefix_index_encoding_activity, prefix_index_encoding_monitoringResource,
-         prefix_index_encoding_question, prefix_index_encoding_responsible_actor,
-         prefix_index_encoding_timesincelastevent, prefix_index_encoding_timesincecasestart,
-         prefix_index_encoding_timesincemidnight, prefix_index_encoding_event_nr, prefix_index_encoding_month,
-         prefix_index_encoding_weekday, prefix_index_encoding_hour, prefix_index_encoding_open_cases,
-         prefix_index_encoding_label, prefix_index_encoding_SUMleges, prefix_index_encoding_Aanleg,
-         prefix_index_encoding_Bouw, prefix_index_encoding_Brandveilig, prefix_index_encoding_Handelen,
-         prefix_index_encoding_Kap, prefix_index_encoding_Milieu, prefix_index_encoding_Monument,
-         prefix_index_encoding_Reclame, prefix_index_encoding_Sloop, prefix_index_encoding_resource], axis=1)
-    '''
 
 if dataset_name == "BPIC15_5_f2_exp_prefix":
     data_dummy_prefix_yes_resource = prefix_index_encoding
@@ -588,18 +493,6 @@ if dataset_name == "BPIC15_5_f2_exp_prefix":
          prefix_index_encoding_Bouw, prefix_index_encoding_Brandveilig, prefix_index_encoding_Flora, prefix_index_encoding_Handelen,
          prefix_index_encoding_Integraal, prefix_index_encoding_Kap, prefix_index_encoding_Milieu, prefix_index_encoding_Monument,
          prefix_index_encoding_Reclame, prefix_index_encoding_Sloop, prefix_index_encoding_resource], axis=1)
-    '''
-    data_dummy_prefix_no_resource = pd.concat(
-        [prefix_index_encoding_case_id, prefix_index_encoding_activity, prefix_index_encoding_monitoringResource,
-         prefix_index_encoding_question, prefix_index_encoding_responsible_actor,
-         prefix_index_encoding_timesincelastevent, prefix_index_encoding_timesincecasestart,
-         prefix_index_encoding_timesincemidnight, prefix_index_encoding_event_nr, prefix_index_encoding_month,
-         prefix_index_encoding_weekday, prefix_index_encoding_hour, prefix_index_encoding_open_cases,
-         prefix_index_encoding_label, prefix_index_encoding_SUMleges, prefix_index_encoding_Aanleg,
-         prefix_index_encoding_Bouw, prefix_index_encoding_Brandveilig, prefix_index_encoding_Flora, prefix_index_encoding_Handelen,
-         prefix_index_encoding_Integraal, prefix_index_encoding_Kap, prefix_index_encoding_Milieu, prefix_index_encoding_Monument,
-         prefix_index_encoding_Reclame, prefix_index_encoding_Sloop, prefix_index_encoding_resource], axis=1)
-    '''
 
 if dataset_name == "traffic_fines_1_exp_prefix":
     data_dummy_prefix_yes_resource = prefix_index_encoding
@@ -649,19 +542,6 @@ if dataset_name == "traffic_fines_1_exp_prefix":
          prefix_index_encoding_event_nr, prefix_index_encoding_month, prefix_index_encoding_weekday,
          prefix_index_encoding_hour, prefix_index_encoding_open_cases, prefix_index_encoding_label,
          prefix_index_encoding_resource], axis=1)
-    '''
-    data_dummy_prefix_no_resource = pd.concat(
-        [prefix_index_encoding_case_id, prefix_index_encoding_activity, prefix_index_encoding_article,
-         prefix_index_encoding_amount, prefix_index_encoding_vehicleClass, prefix_index_encoding_points,
-         prefix_index_encoding_lastSent, prefix_index_encoding_notificationType, prefix_index_encoding_dismissal,
-         prefix_index_encoding_expense, prefix_index_encoding_monitoringResource,
-         prefix_index_encoding_responsible_actor, prefix_index_encoding_timesincelastevent,
-         prefix_index_encoding_timesincecasestart, prefix_index_encoding_timesincemidnight,
-         prefix_index_encoding_event_nr, prefix_index_encoding_month, prefix_index_encoding_weekday,
-         prefix_index_encoding_hour, prefix_index_encoding_open_cases, prefix_index_encoding_label,
-         prefix_index_encoding_resource], axis=1)
-    '''
-
 
 if dataset_name == "bpic2012_O_CANCELLED-COMPLETE_exp_prefix":
     data_dummy_prefix_yes_resource = prefix_index_encoding
@@ -693,14 +573,6 @@ if dataset_name == "bpic2012_O_CANCELLED-COMPLETE_exp_prefix":
          prefix_index_encoding_timesincemidnight, prefix_index_encoding_event_nr, prefix_index_encoding_month,
          prefix_index_encoding_weekday, prefix_index_encoding_hour, prefix_index_encoding_open_cases,
          prefix_index_encoding_label, prefix_index_encoding_resource], axis=1)
-    '''
-    data_dummy_prefix_no_resource = pd.concat(
-        [prefix_index_encoding_case_id, prefix_index_encoding_activity, prefix_index_encoding_amount_req,
-         prefix_index_encoding_timesincelastevent, prefix_index_encoding_timesincecasestart,
-         prefix_index_encoding_timesincemidnight, prefix_index_encoding_event_nr, prefix_index_encoding_month,
-         prefix_index_encoding_weekday, prefix_index_encoding_hour, prefix_index_encoding_open_cases,
-         prefix_index_encoding_label, prefix_index_encoding_resource], axis=1)
-    '''
 
 if dataset_name == "bpic2012_O_ACCEPTED-COMPLETE_exp_prefix":
     data_dummy_prefix_yes_resource = prefix_index_encoding
@@ -732,14 +604,6 @@ if dataset_name == "bpic2012_O_ACCEPTED-COMPLETE_exp_prefix":
          prefix_index_encoding_timesincemidnight, prefix_index_encoding_event_nr, prefix_index_encoding_month,
          prefix_index_encoding_weekday, prefix_index_encoding_hour, prefix_index_encoding_open_cases,
          prefix_index_encoding_label, prefix_index_encoding_resource], axis=1)
-    '''
-    data_dummy_prefix_no_resource = pd.concat(
-        [prefix_index_encoding_case_id, prefix_index_encoding_activity, prefix_index_encoding_amount_req,
-         prefix_index_encoding_timesincelastevent, prefix_index_encoding_timesincecasestart,
-         prefix_index_encoding_timesincemidnight, prefix_index_encoding_event_nr, prefix_index_encoding_month,
-         prefix_index_encoding_weekday, prefix_index_encoding_hour, prefix_index_encoding_open_cases,
-         prefix_index_encoding_label, prefix_index_encoding_resource], axis=1)
-    '''
 
 if dataset_name == "bpic2012_O_DECLINED-COMPLETE_exp_prefix":
     data_dummy_prefix_yes_resource = prefix_index_encoding
@@ -771,15 +635,6 @@ if dataset_name == "bpic2012_O_DECLINED-COMPLETE_exp_prefix":
          prefix_index_encoding_timesincemidnight, prefix_index_encoding_event_nr, prefix_index_encoding_month,
          prefix_index_encoding_weekday, prefix_index_encoding_hour, prefix_index_encoding_open_cases,
          prefix_index_encoding_label, prefix_index_encoding_resource], axis=1)
-    '''
-    data_dummy_prefix_no_resource = pd.concat(
-        [prefix_index_encoding_case_id, prefix_index_encoding_activity, prefix_index_encoding_amount_req,
-         prefix_index_encoding_timesincelastevent, prefix_index_encoding_timesincecasestart,
-         prefix_index_encoding_timesincemidnight, prefix_index_encoding_event_nr, prefix_index_encoding_month,
-         prefix_index_encoding_weekday, prefix_index_encoding_hour, prefix_index_encoding_open_cases,
-         prefix_index_encoding_label, prefix_index_encoding_resource], axis=1)
-    '''
-
 
 if dataset_name == "BPIC17_O_Cancelled_exp_prefix":
     data_dummy_prefix_yes_resource = prefix_index_encoding
@@ -854,22 +709,6 @@ if dataset_name == "BPIC17_O_Cancelled_exp_prefix":
          prefix_index_encoding_event_nr, prefix_index_encoding_month, prefix_index_encoding_weekday,
          prefix_index_encoding_hour, prefix_index_encoding_open_cases, prefix_index_encoding_label,
          prefix_index_encoding_resource], axis=1)
-    '''
-    data_dummy_prefix_no_resource = pd.concat(
-        [prefix_index_encoding_case_id, prefix_index_encoding_activity_a, prefix_index_encoding_activity_o,
-         prefix_index_encoding_activity_w, prefix_index_encoding_application, prefix_index_encoding_loangoal,
-         prefix_index_encoding_action, prefix_index_encoding_eventorigin, prefix_index_encoding_lifecycle_transition,
-         prefix_index_encoding_accepted_false, prefix_index_encoding_accepted_true,
-         prefix_index_encoding_accepted_missing, prefix_index_encoding_selected_false,
-         prefix_index_encoding_selected_true, prefix_index_encoding_selected_missing,
-         prefix_index_encoding_firstwithdrawalamount, prefix_index_encoding_monthlycost,
-         prefix_index_encoding_numberofterms, prefix_index_encoding_offeredamount, prefix_index_encoding_creditscore,
-         prefix_index_encoding_requestedamount, prefix_index_encoding_timesincelastevent,
-         prefix_index_encoding_timesincecasestart, prefix_index_encoding_timesincemidnight,
-         prefix_index_encoding_event_nr, prefix_index_encoding_month, prefix_index_encoding_weekday,
-         prefix_index_encoding_hour, prefix_index_encoding_open_cases, prefix_index_encoding_label,
-         prefix_index_encoding_resource], axis=1)
-    '''
 
 if dataset_name == "BPIC17_O_Accepted_exp_prefix":
     data_dummy_prefix_yes_resource = prefix_index_encoding
@@ -944,22 +783,7 @@ if dataset_name == "BPIC17_O_Accepted_exp_prefix":
          prefix_index_encoding_event_nr, prefix_index_encoding_month, prefix_index_encoding_weekday,
          prefix_index_encoding_hour, prefix_index_encoding_open_cases, prefix_index_encoding_label,
          prefix_index_encoding_resource], axis=1)
-    '''
-    data_dummy_prefix_no_resource = pd.concat(
-        [prefix_index_encoding_case_id, prefix_index_encoding_activity_a, prefix_index_encoding_activity_o,
-         prefix_index_encoding_activity_w, prefix_index_encoding_application, prefix_index_encoding_loangoal,
-         prefix_index_encoding_action, prefix_index_encoding_eventorigin, prefix_index_encoding_lifecycle_transition,
-         prefix_index_encoding_accepted_false, prefix_index_encoding_accepted_true,
-         prefix_index_encoding_accepted_missing, prefix_index_encoding_selected_false,
-         prefix_index_encoding_selected_true, prefix_index_encoding_selected_missing,
-         prefix_index_encoding_firstwithdrawalamount, prefix_index_encoding_monthlycost,
-         prefix_index_encoding_numberofterms, prefix_index_encoding_offeredamount, prefix_index_encoding_creditscore,
-         prefix_index_encoding_requestedamount, prefix_index_encoding_timesincelastevent,
-         prefix_index_encoding_timesincecasestart, prefix_index_encoding_timesincemidnight,
-         prefix_index_encoding_event_nr, prefix_index_encoding_month, prefix_index_encoding_weekday,
-         prefix_index_encoding_hour, prefix_index_encoding_open_cases, prefix_index_encoding_label,
-         prefix_index_encoding_resource], axis=1)
-    '''
+
 if dataset_name == "BPIC17_O_Refused_exp_prefix":
     data_dummy_prefix_yes_resource = prefix_index_encoding
     prefix_index_encoding_case_id = prefix_index_encoding.iloc[:, prefix_index_encoding.columns.str.contains("case_id")]
@@ -1033,23 +857,6 @@ if dataset_name == "BPIC17_O_Refused_exp_prefix":
          prefix_index_encoding_event_nr, prefix_index_encoding_month, prefix_index_encoding_weekday,
          prefix_index_encoding_hour, prefix_index_encoding_open_cases, prefix_index_encoding_label,
          prefix_index_encoding_resource], axis=1)
-    '''
-    data_dummy_prefix_no_resource = pd.concat(
-        [prefix_index_encoding_case_id, prefix_index_encoding_activity_a, prefix_index_encoding_activity_o,
-         prefix_index_encoding_activity_w, prefix_index_encoding_application, prefix_index_encoding_loangoal,
-         prefix_index_encoding_action, prefix_index_encoding_eventorigin, prefix_index_encoding_lifecycle_transition,
-         prefix_index_encoding_accepted_false, prefix_index_encoding_accepted_true,
-         prefix_index_encoding_accepted_missing, prefix_index_encoding_selected_false,
-         prefix_index_encoding_selected_true, prefix_index_encoding_selected_missing,
-         prefix_index_encoding_firstwithdrawalamount, prefix_index_encoding_monthlycost,
-         prefix_index_encoding_numberofterms, prefix_index_encoding_offeredamount, prefix_index_encoding_creditscore,
-         prefix_index_encoding_requestedamount, prefix_index_encoding_timesincelastevent,
-         prefix_index_encoding_timesincecasestart, prefix_index_encoding_timesincemidnight,
-         prefix_index_encoding_event_nr, prefix_index_encoding_month, prefix_index_encoding_weekday,
-         prefix_index_encoding_hour, prefix_index_encoding_open_cases, prefix_index_encoding_label,
-         prefix_index_encoding_resource], axis=1)
-    '''
-
 
 # Deleting "case_len" feature
 data_dummy_prefix_yes_resource = data_dummy_prefix_yes_resource.drop("case_len_prefixlen1",
@@ -1070,57 +877,7 @@ y_dummy_yes_resource = pd.DataFrame(
 
 X_dummy_no_resource = data_dummy_prefix_no_resource[data_dummy_prefix_no_resource.columns.drop('label_prefixlen1')]
 X_dummy_yes_resource = data_dummy_prefix_yes_resource[data_dummy_prefix_yes_resource.columns.drop('label_prefixlen1')]
-# X_dummy_no_resource = data_dummy_prefix_no_resource[data_dummy_prefix_no_resource.columns.drop(list(data_dummy_prefix_no_resource.filter(regex='label')))]
-# X_dummy_yes_resource = data_dummy_prefix_yes_resource[data_dummy_prefix_yes_resource.columns.drop(list(data_dummy_prefix_yes_resource.filter(regex='label')))]
-# X_dummy_no_resource = data_dummy_prefix_no_resource.drop(["label_prefixlen1"], axis = 1)
-# X_dummy_yes_resource = data_dummy_prefix_yes_resource.drop(["label_prefixlen1"], axis = 1)
 
-'''
-# Normalization of common features across all datasets
-for i in range(max_prefix):
-    feature_name = "timesincelastevent_prefixlen" + str(i + 1)
-    if np.var(X_dummy_no_resource[feature_name]) == 0:
-        break
-    X_dummy_no_resource[feature_name] = (X_dummy_no_resource[feature_name] - min(X_dummy_no_resource[feature_name])) / (
-                max(X_dummy_no_resource[feature_name]) - min(X_dummy_no_resource[feature_name]))  # 0~1 normalization
-for i in range(max_prefix):
-    feature_name = "timesincemidnight_prefixlen" + str(i + 1)
-    if np.var(X_dummy_no_resource[feature_name]) == 0:
-        break
-    X_dummy_no_resource[feature_name] = (X_dummy_no_resource[feature_name] - min(X_dummy_no_resource[feature_name])) / (
-                max(X_dummy_no_resource[feature_name]) - min(X_dummy_no_resource[feature_name]))  # 0~1 normalization
-for i in range(max_prefix):
-    feature_name = "event_nr_prefixlen" + str(i + 1)
-    if np.var(X_dummy_no_resource[feature_name]) == 0:
-        break
-    X_dummy_no_resource[feature_name] = (X_dummy_no_resource[feature_name] - min(X_dummy_no_resource[feature_name])) / (
-                max(X_dummy_no_resource[feature_name]) - min(X_dummy_no_resource[feature_name]))  # 0~1 normalization
-for i in range(max_prefix):
-    feature_name = "month_prefixlen" + str(i + 1)
-    if np.var(X_dummy_no_resource[feature_name]) == 0:
-        break
-    X_dummy_no_resource[feature_name] = (X_dummy_no_resource[feature_name] - min(X_dummy_no_resource[feature_name])) / (
-                max(X_dummy_no_resource[feature_name]) - min(X_dummy_no_resource[feature_name]))  # 0~1 normalization
-for i in range(max_prefix):
-    feature_name = "weekday_prefixlen" + str(i + 1)
-    if np.var(X_dummy_no_resource[feature_name]) == 0:
-        break
-    X_dummy_no_resource[feature_name] = (X_dummy_no_resource[feature_name] - min(X_dummy_no_resource[feature_name])) / (
-                max(X_dummy_no_resource[feature_name]) - min(X_dummy_no_resource[feature_name]))  # 0~1 normalization
-for i in range(max_prefix):
-    feature_name = "hour_prefixlen" + str(i + 1)
-    if np.var(X_dummy_no_resource[feature_name]) == 0:
-        break
-    X_dummy_no_resource[feature_name] = (X_dummy_no_resource[feature_name] - min(X_dummy_no_resource[feature_name])) / (
-                max(X_dummy_no_resource[feature_name]) - min(X_dummy_no_resource[feature_name]))  # 0~1 normalization
-for i in range(max_prefix):
-    feature_name = "open_cases_prefixlen" + str(i + 1)
-    if np.var(X_dummy_no_resource[feature_name]) == 0:
-        break
-    X_dummy_no_resource[feature_name] = (X_dummy_no_resource[feature_name] - min(X_dummy_no_resource[feature_name])) / (
-                max(X_dummy_no_resource[feature_name]) - min(X_dummy_no_resource[feature_name]))  # 0~1 normalization
-'''
-# Normalization for features only available in BPIC15_1_f2_exp_prefix
 # If the feature is both case-level attribute and numeric, only one line will be written for normalization as below.
 # If the feature is not a case-level attribute but numeric, five lines will be written (starting with for statement) for normalization as below.
 if dataset_name == "BPIC11_f1_exp_prefix":
@@ -1318,35 +1075,7 @@ X_dummy_no_resource.to_csv("X_dummy_no_resource_" + dataset_name + "_" + str(max
 y_dummy_no_resource.to_csv("y_dummy_no_resource_" + dataset_name + "_" + str(max_prefix) + ".csv")
 X_dummy_yes_resource.to_csv("X_dummy_yes_resource_" + dataset_name + "_" + str(max_prefix) + ".csv")
 y_dummy_yes_resource.to_csv("y_dummy_yes_resource_" + dataset_name + "_" + str(max_prefix) + ".csv")
-'''
-X_dummy_no_resource = X_dummy_no_resource.drop("case_id_prefixlen1",
-                                               1)  # Case_id column was added in order to give users info about each case. From here, the column is deleted for training and testing.
-X_dummy_yes_resource = X_dummy_yes_resource.drop("case_id_prefixlen1",
-                                                 1)  # Case_id column was added in order to give users info about each case. From here, the column is deleted for training and testing.
-'''
-'''
-# Deleting sparse features
-threshold_value = 0.1  # choose among 0.5, 0.1, 0.05, 0.01, 0.001
 
-no_resource_non_sparse_features_index = X_dummy_no_resource.mean() > threshold_value
-print(len(X_dummy_no_resource.columns))
-print(X_dummy_no_resource.columns[0:10])
-print(len(no_resource_non_sparse_features_index))
-abc = pd.DataFrame(no_resource_non_sparse_features_index)
-abc.to_csv('no_resource_non_sparse_features_index.csv', index=False)
-X_dummy_no_resource = X_dummy_no_resource[X_dummy_no_resource.columns[no_resource_non_sparse_features_index]]
-X_dummy_no_resource_column_list = pd.DataFrame(X_dummy_no_resource.columns)
-X_dummy_no_resource_column_list.to_csv('columns_X_dummy_no_resource.csv', index=False)
-
-yes_resource_non_sparse_features_index = X_dummy_yes_resource.mean() > threshold_value
-print(len(X_dummy_yes_resource.columns))
-print(len(yes_resource_non_sparse_features_index))
-X_dummy_yes_resource.to_csv('X_dummy_yes_resource.csv', index=False)
-yes_resource_non_sparse_features_index.to_csv('yes_resource_non_sparse_features_index.csv', index=False)
-X_dummy_yes_resource = X_dummy_yes_resource[X_dummy_yes_resource.columns[yes_resource_non_sparse_features_index]]
-X_dummy_yes_resource_column_list = pd.DataFrame(X_dummy_yes_resource.columns)
-X_dummy_yes_resource_column_list.to_csv('columns_X_dummy_yes_resource.csv', index=False)
-'''
 ## Selecting top20 important features only
 if dataset_name == "BPIC17_O_Accepted_exp_prefix":
     # RF TOP 20 important features
@@ -1441,22 +1170,6 @@ for i in range(len(X_dummy_yes_resource.columns) - 1):
 pearson_name = "pearson_correlation_coefficient_yes_resource_" + dataset_name + "_" + str(max_prefix) + ".csv"
 pearson_corr.to_csv(pearson_name, index=False)
 
-'''
-# Mute this part if you do not want to reduce dimensionality
-# Dimensionality reduction using PCA
-pca_no_resource = PCA(n_components = 10)
-pca_no_resource.fit(X_dummy_no_resource)
-print("pca_no_resource_variance_explained:")
-print(pca_no_resource.explained_variance_ratio_)
-X_dummy_no_resource = pd.DataFrame(pca_no_resource.transform(X_dummy_no_resource))
-X_dummy_no_resource = X_dummy_no_resource.iloc[:,0:5] #index changes depending on the variance explained.
-pca_yes_resource = PCA(n_components = 10)
-pca_yes_resource.fit(X_dummy_yes_resource)
-print("pca_yes_resource_variance_explained:")
-print(pca_yes_resource.explained_variance_ratio_)
-X_dummy_yes_resource = pd.DataFrame(pca_yes_resource.transform(X_dummy_yes_resource))
-X_dummy_yes_resource = X_dummy_yes_resource.iloc[:,0:5] #index changes depending on the variance explained.
-'''
 # [no resource] Setting k for k-fold cv
 nsplits_no_resource = 2  # Set the number of k for cross validation
 kf_no_resource = KFold(n_splits=nsplits_no_resource)
