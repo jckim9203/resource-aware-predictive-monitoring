@@ -1,0 +1,7 @@
+iter;dataset;cls;method;param;value;score
+2;bpic2011_f1_exp_prefix_new_4;xgboost;single_index;colsample_bytree;0.6518781570551232;0.8585913593666493
+2;bpic2011_f1_exp_prefix_new_4;xgboost;single_index;learning_rate;0.6626410375350669;0.8585913593666493
+2;bpic2011_f1_exp_prefix_new_4;xgboost;single_index;max_depth;18;0.8585913593666493
+2;bpic2011_f1_exp_prefix_new_4;xgboost;single_index;min_child_weight;3;0.8585913593666493
+2;bpic2011_f1_exp_prefix_new_4;xgboost;single_index;subsample;0.815854364400846;0.8585913593666493
+2;bpic2011_f1_exp_prefix_new_4;xgboost;single_index;processing_time;248.4352810382843;0
