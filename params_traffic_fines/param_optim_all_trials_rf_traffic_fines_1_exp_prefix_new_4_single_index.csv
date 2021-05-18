@@ -1,0 +1,3 @@
+iter;dataset;cls;method;param;value;score
+2;traffic_fines_1_exp_prefix_new_4;rf;single_index;max_features;0.6047994447370278;0.7948359582776066
+2;traffic_fines_1_exp_prefix_new_4;rf;single_index;processing_time;10519.033938407898;0

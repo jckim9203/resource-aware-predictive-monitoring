@@ -1,0 +1,7 @@
+iter;dataset;cls;method;param;value;score
+2;traffic_fines_1_exp_prefix_new_3;xgboost;single_index;colsample_bytree;0.9606785497337396;0.7668694798962047
+2;traffic_fines_1_exp_prefix_new_3;xgboost;single_index;learning_rate;0.502250335053817;0.7668694798962047
+2;traffic_fines_1_exp_prefix_new_3;xgboost;single_index;max_depth;11;0.7668694798962047
+2;traffic_fines_1_exp_prefix_new_3;xgboost;single_index;min_child_weight;1;0.7668694798962047
+2;traffic_fines_1_exp_prefix_new_3;xgboost;single_index;subsample;0.9696550769780921;0.7668694798962047
+2;traffic_fines_1_exp_prefix_new_3;xgboost;single_index;processing_time;16102.954008579254;0
