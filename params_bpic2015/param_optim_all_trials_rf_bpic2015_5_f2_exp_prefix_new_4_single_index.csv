@@ -1,0 +1,3 @@
+iter;dataset;cls;method;param;value;score
+2;bpic2015_5_f2_exp_prefix_new_4;rf;single_index;max_features;0.9418361577405767;0.6967871877024968
+2;bpic2015_5_f2_exp_prefix_new_4;rf;single_index;processing_time;701.8584127426147;0
