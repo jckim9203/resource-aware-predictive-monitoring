@@ -1,0 +1,7 @@
+iter;dataset;cls;method;param;value;score
+2;bpic2012_cancelled;xgboost;single_index;colsample_bytree;0.9987527078795275;0.7386861000674451
+2;bpic2012_cancelled;xgboost;single_index;learning_rate;0.5163626378973579;0.7386861000674451
+2;bpic2012_cancelled;xgboost;single_index;max_depth;12;0.7386861000674451
+2;bpic2012_cancelled;xgboost;single_index;min_child_weight;4;0.7386861000674451
+2;bpic2012_cancelled;xgboost;single_index;subsample;0.7001120627732127;0.7386861000674451
+2;bpic2012_cancelled;xgboost;single_index;processing_time;2733.33562707901;0
